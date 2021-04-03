@@ -37,3 +37,4 @@ for el in os.listdir(path):
         except Exception as e:
             print("\n\n* Folder " + folder + "could not be removed")
             print("Original Exception message: " + str(e) + "\n")
+            
